@@ -1,8 +1,14 @@
 
-                                          *** Notes ***
+                                   *** Notes ***
+                                          
+This script will help us to take backups of our Cisco routers and switches, depending on 
+some information that we add to it through an external file called ("info.txt") and give 
+it some information such as where the backups are stored ("path"), the name and password 
+of the SSH and the IPs of the devices to take backups.
 
 1- the "info.txt" must be in the same directory beside "Backup_Script.py"
-2- create user read only on AAA server with priviledge read only and make sure that it can be run command " show running "
+2- create user read only on AAA server with priviledge read only and make sure that it 
+   can be run command " show running "
 3- follow the structure of "info.txt"
      {
      "directory":"C:\\Backups\\Network\\Jun-2021\\",
