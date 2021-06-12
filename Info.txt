@@ -1,0 +1,7 @@
+{
+"directory":"C:\\Backups\\Network\\Jun-2021\\",
+"username":"youssef",
+"password":"youssef",
+"secret":"youssef",
+"devices":["192.168.1.100", "192.168.1.200"]
+}
